@@ -1,0 +1,36 @@
+.title-text p {
+    text-align: center;
+    color: #F2C64D;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    display: block;
+    font-family: "Pacifico", cursive;
+}
+.title-text h3 {
+  text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1A0D01;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.image{
+  width:166px;
+  height: 166px
+}
+table p{
+  font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4D4D4D;
+    margin-bottom: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+table h3 {
+  font-size: 30px;
+    color: #1A0D01;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
