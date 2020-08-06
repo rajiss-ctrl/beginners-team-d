@@ -1,36 +1,117 @@
-.title-text p {
-    text-align: center;
-    color: #F2C64D;
-    font-size: 30px;
-    font-weight: 400;
-    margin-bottom: 18px;
-    display: block;
-    font-family: "Pacifico", cursive;
+/*style for best_burgers_area*/
+.container{
+  padding: 1% 0%;
 }
-.title-text h3 {
+/*for paragraph and fir h3*/
+.burgertitle {
   text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    color: #1A0D01;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
+  color: #F2C64D;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  display: block;
+  font-family: "Pacifico", cursive;
 }
-.image{
-  width:166px;
-  height: 166px
+.bigheading{
+  text-align: center;
+  line-height: 42px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #1A0D01;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-bottom:80px;
 }
-table p{
-  font-size: 16px;
+/*for image and text*/
+.burger-contents{
+display: flex;
+margin-top:px;
+padding: 4% 2%;
+}
+.try{
+  text-align: block;
+  margin-right: 50px;
+  padding:3% 0%;
+}
+.try p{
+    font-size: 16px;
     font-weight: 300;
     line-height: 28px;
     color: #4D4D4D;
-    margin-bottom: 13px;
+    margin-right:;
     font-family: 'Raleway', sans-serif;
 }
+.try h3{
+    font-size: 30px;
+    color: #1A0D01;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-right:;
+}
+.try .pound-sign{
+  margin-right:;
+  font-weight: 700;
+  font-size: 24px;
+  color: #F0542C;
+  font-family: "Montserrat", sans-serif;
+}
+/*the more items styling*/
+.callToAction:hover{
+  background-color:#F0542C;
+  color: #fff !important;
+}
+.boxed-btn{
 
-table h3 {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    padding: 22px 44px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.callToAction{
+  width:100%;
+  height: 10%;
+  margin-top: 60px;
+  border-radius:50px;
+  border: 1px solid #F0542C;
+  text-align: center;
+  color: #F0542C ;
+}
+/*responsiness with mediaqury*/
+@media only screen and (min-width:567px) and (max-width:900px)  {
+
+  .try{
+    text-align: left;
+    margin-left: 70px;
+  }
+  .image{
+      margin-left: 120px;
+  }
+  .col-lg-6{
+    display:block;
+  }
+}
+.try h3{
   font-size: 30px;
     color: #1A0D01;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+}
+  .try p{
+    font-size: 16px;
+      font-weight: 300;
+      line-height: 28px;
+      color: #4D4D4D;
+      margin-left:20px;
+      font-family: 'Raleway', sans-serif;
   }
+.burger-contents{
+  margin-top:0px;
+}
+}
