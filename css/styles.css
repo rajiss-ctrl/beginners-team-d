@@ -1,6 +1,94 @@
+
+
+
+/* navbar*/
+.dropdown-menu{
+  display: none;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  background-color:white ;
+}
+.drop-link{
+  color: white;
+}
+.drop-link:hover {
+   color: #F2C64D !important;
+  border-bottom: 2px solid  #F2C64D;
+}
+.drop-link:active a{
+  color:  #F2C64D !important;
+  border-bottom: 2px solid  #F2C64D;
+}
+.fa{
+  color: white;
+}
+.fa:hover{
+ color:#F2C64D;
+}
+.btn{
+  border-radius: 25px !important;
+  margin-left: 5px;
+}
+.btn:hover{
+  color:#F2C64D ;
+  color: white !important;
+}
+.contact-link{
+  padding-left:30px !important;
+  margin-right: 60px !important;
+}
+.img-logo{
+  width:150px !important;
+  padding-top: -5px !important;
+}
+.navbar-toggler{
+  float: right;
+}
+.title-text p {
+    text-align: center;
+    color: #F2C64D;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    display: block;
+    font-family: "Pacifico", cursive;
+}
+.title-text h3 {
+  text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1A0D01;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.image{
+  width:166px;
+  height: 166px
+}
+table p{
+  font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4D4D4D;
+    margin-bottom: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+table h3 {
+  font-size: 30px;
+    color: #1A0D01;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+
+
 /*style for best_burgers_area*/
 .container{
   padding: 1% 0%;
+  background-color: #fff;
 }
 /*for paragraph and fir h3*/
 .burgertitle {
@@ -25,8 +113,7 @@
 /*for image and text*/
 .burger-contents{
 display: flex;
-margin-top:px;
-padding: 4% 2%;
+padding: 1% 2%;
 }
 .try{
   text-align: block;
@@ -84,6 +171,20 @@ padding: 4% 2%;
 }
 /*responsiness with mediaqury*/
 @media only screen and (min-width:567px) and (max-width:900px)  {
+
+    .contact-link{
+        display: none !important;
+    }
+    .img-logo{
+        width:70px !important;
+        position: absolute;
+        top:2px;
+        left:5px;
+    }
+
+
+
+
 
   .try{
     text-align: left;
